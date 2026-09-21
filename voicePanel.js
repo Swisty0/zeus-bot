@@ -85,14 +85,14 @@ module.exports = {
                     .setDescription(
                         '# <:site:1551605548590309387> **ZEUS — Bot Ses Yönetimi**\n\n' +
                         '<a:dclogo:1551605543716782261> **Sistem Durumu:** `Hazır / Çevrimiçi`\n' +
-                        '<a:strike:1551605532018868275> **Bot Limiti:** `0/10`'+
+                        '<a:strike:1551605532018868275> **Bot Limiti:** `0/10`\n\n' +
                         '──────────────────────────────────────────────────────\n\n' +
-                        '# <:classadam:1551605484178378822> Bot Yönetimi Nedir?\n\n'+
+                        '# <:classadam:1551605484178378822> Bot Yönetimi Nedir?\n\n' +
                         'Standart Discord bot tokenlerini ses kanallarına **7/24 kesintisiz** bağlar. Aktif bot listeni görebilir, durum varlıklarını değiştirebilir ve bağlantıları kesebilirsin.\n\n' +
                         '───────────────────────────────────────────────────────────\n\n' +
-                        '# <:olympyx_ay:1551605489056354337> Seçenekler?\n\n'+
+                        '# <:olympyx_ay:1551605489056354337> Seçenekler?\n\n' +
                         '> <:plus:1551605515375607888> **Bot Sese Kur** — Tekli veya toplu bot tokenlerini ses kanalına sokar\n' +
-                        '> <:silme:1551605463395868782> **Bağlantıyı Kes** — Ses bağlantılarını güvenle sonlandırır' +
+                        '> <:silme:1551605463395868782> **Bağlantıyı Kes** — Ses bağlantılarını güvenle sonlandırır'
                     )
                     .setFooter({ text: 'Zeus Bot • Encrypted Voice System' });
 
