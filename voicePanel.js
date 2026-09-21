@@ -86,7 +86,7 @@ module.exports = {
                     .setDescription(
                         '<:site:1551605548590309387> **ZEUS — Bot Ses Yönetimi**\n\n' +
                         '<a:dclogo:1551605543716782261> **Sistem Durumu:** `Hazır / Çevrimiçi`\n' +
-                        '<a:strike:1551605532018868275> **Bot Limiti:** `0/10` +
+                        '<a:strike:1551605532018868275> **Bot Limiti:** `0/10`'+
                         '───────────────────────────────────────────────────────────────────────────\n\n' +
                         '<:classadam:1551605484178378822> **Bot Yönetimi Nedir?**\n\n' +
                     
