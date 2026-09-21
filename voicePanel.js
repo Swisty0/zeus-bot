@@ -92,7 +92,7 @@ module.exports = {
                         '──────────────────────────────\n\n' +
                         '🌙 **Seçenekler**\n\n' +
                         '>`<a:snowflake:1551605446203408384>` **Bot Sese Kur** — Tekli veya toplu bot tokenlerini ses kanalına sokar\n' +
-                        '>`<a:snowflake:1551605446203408384>` **Bağlantıyı Kes** — Ses bağlantılarını güvenle sonlandırır'
+                        '>`<a:snowflake:1551605446203408384>` **Bağlantıyı Kes** — Ses bağlantılarını güvenle sonlandırır'+
                         '🔒 Tokenlerin **şifrelenerek** saklanır.'
                     )
                     .setFooter({ text: 'Zeus Bot • Encrypted Voice System' });
