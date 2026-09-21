@@ -84,8 +84,15 @@ module.exports = {
                     .setColor(0x5865F2)
                     .setTitle('7/24 Ses Bağlantı Paneli')
                     .setDescription(
-                        'Aşağıdaki butona basarak **Bot Token** ve **Kanal ID** girerek\n' +
-                        'botunu 7/24 ses kanalına bağlayabilirsin.\n\n' +
+                        '<:site:1551605548590309387> **ZEUS — Bot Ses Yönetimi**\n\n' +
+                        '<a:dclogo:1551605543716782261> **Sistem Durumu:** `Hazır / Çevrimiçi`\n' +
+                        '──────────────────────────────\n\n' +
+                        '<:classadam:1551605484178378822> **Bot Yönetimi Nedir?**\n\n' +
+                        'Standart Discord bot tokenlerini ses kanallarına **7/24 kesintisiz** bağlar. Aktif bot listeni görebilir, durum varlıklarını değiştirebilir ve bağlantıları kesebilirsin.\n\n' +
+                        '──────────────────────────────\n\n' +
+                        '🌙 **Seçenekler**\n\n' +
+                        '>`<a:snowflake:1551605446203408384>` **Bot Sese Kur** — Tekli veya toplu bot tokenlerini ses kanalına sokar\n' +
+                        '>`<a:snowflake:1551605446203408384>` **Bağlantıyı Kes** — Ses bağlantılarını güvenle sonlandırır'
                         '🔒 Tokenlerin **şifrelenerek** saklanır.'
                     )
                     .setFooter({ text: 'Zeus Bot • Encrypted Voice System' });
@@ -93,14 +100,14 @@ module.exports = {
                 const row = new ActionRowBuilder().addComponents(
                     new ButtonBuilder()
                         .setCustomId('voice_connect')
-                        .setLabel('Sese Bağlan')
+                        .setLabel('Bot Sese Kur / Bağlan')
                         .setStyle(ButtonStyle.Success)
-                        .setEmoji('🔊'),
+                        .setEmoji('<:plus:1551605515375607888>'),
                     new ButtonBuilder()
                         .setCustomId('voice_disconnect')
-                        .setLabel('Bağlantıyı Kes')
+                        .setLabel('Bağlantıyı Kes / Sil')
                         .setStyle(ButtonStyle.Danger)
-                        .setEmoji('🔌')
+                        .setEmoji('<:silme:1551605463395868782>')
                 );
 
                 await message.channel.send({ embeds: [embed], components: [row] });
