@@ -92,7 +92,7 @@ module.exports = {
                         '───────────────────────────────────────────────────────────\n\n' +
                         '# <:olympyx_ay:1551605489056354337> Seçenekler?\n\n' +
                         '> <:plus:1551605515375607888> **Bot Sese Kur** — Tekli veya toplu bot tokenlerini ses kanalına sokar\n' +
-                        '> <:silme:1551605463395868782> **Bağlantıyı Kes** — Ses bağlantılarını güvenle sonlandırır'
+                        '> <:silme:1551605463395868782> **Bağlantıyı Kes** — Ses bağlantılarını güvenle sonlandırırr'
                     )
                     .setFooter({ text: 'Zeus Bot • Encrypted Voice System' });
 
