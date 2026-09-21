@@ -2,6 +2,19 @@ require('dotenv').config();
 const { Client, GatewayIntentBits, Partials, Collection } = require('discord.js');
 const fs = require('fs');
 const path = require('path');
+const express = require('express'); // <-- Express eklendi
+
+// Render'ın verdiği portu kullan veya yerelde test ediyorsan 3000'i seç
+const app = express();
+const PORT = process.env.PORT || 3000;
+
+app.get('/', (req, res) => {
+    res.send('Bot aktif ve çalışıyor!');
+});
+
+app.listen(PORT, () => {
+    console.log(`🌐 Web sunucusu ${PORT} portunda çalışıyor.`);
+});
 
 // Bot client'ı oluştur
 const client = new Client({
@@ -28,7 +41,7 @@ const welcome = require('./welcome');
 welcome.execute(client);
 
 // ======================
-//  Voice Panel sistemini yükle (EKLENDİ)
+//  Voice Panel sistemini yükle
 // ======================
 const voicePanel = require('./voicePanel');
 voicePanel.execute(client);
@@ -37,8 +50,8 @@ voicePanel.execute(client);
 //  Bot hazır olduğunda
 // ======================
 client.once('ready', () => {
-    console.log(`✅ ${client.user.tag} olarak giriş yapıldı!`);
-    console.log(`📊 ${client.guilds.cache.size} sunucuda aktif`);
+    console.log(`✅ ${client.user.tag} olarak giriş yapıldı![cite: 3]`);
+    console.log(`📊 ${client.guilds.cache.size} sunucuda aktif[cite: 3]`);
     
     client.user.setActivity('Hoş geldin mesajları', { type: 3 }); // Watching
 });
