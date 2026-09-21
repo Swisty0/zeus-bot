@@ -87,16 +87,14 @@ module.exports = {
                         '<:site:1551605548590309387> **ZEUS — Bot Ses Yönetimi**\n\n' +
                         '<a:dclogo:1551605543716782261> **Sistem Durumu:** `Hazır / Çevrimiçi`\n' +
                         '<a:strike:1551605532018868275> **Bot Limiti:** `0/10`'+
-                        '───────────────────────────────────────────────────────────────────────────\n\n' +
-                        '<:classadam:1551605484178378822> **Bot Yönetimi Nedir?**\n\n' +
-                    
+                        '──────────────────────────────────────────────────────────\n\n' +
+                        '# <:classadam:1551605484178378822> Bot Yönetimi Nedir?\n\n'
                         'Standart Discord bot tokenlerini ses kanallarına **7/24 kesintisiz** bağlar. Aktif bot listeni görebilir, durum varlıklarını değiştirebilir ve bağlantıları kesebilirsin.\n\n' +
-                        '────────────────────────────────────────────────────────────────────────────\n\n' +
-                        '🌙 **Seçenekler**\n\n' +
-                    
-                        '>` <a:snowflake:1551605446203408384>` **Bot Sese Kur** — Tekli veya toplu bot tokenlerini ses kanalına sokar\n' +
-                        '>` <a:snowflake:1551605446203408384>` **Bağlantıyı Kes** — Ses bağlantılarını güvenle sonlandırır'+
-                        '🔒 Tokenlerin **şifrelenerek** saklanır.'
+                        '───────────────────────────────────────────────────────────\n\n' +
+                        '# <:olympyx_ay:1551605489056354337> Seçenekler?\n\n'
+                        '<a:snowflake:1551605446203408384>` **Bot Sese Kur** — Tekli veya toplu bot tokenlerini ses kanalına sokar\n' +
+                        '<a:snowflake:1551605446203408384>` **Bağlantıyı Kes** — Ses bağlantılarını güvenle sonlandırır'+
+                        '<a:coding:1551605537446297803> Tokenlerin **şifrelenerek** saklanır.'
                     )
                     .setFooter({ text: 'Zeus Bot • Encrypted Voice System' });
 
