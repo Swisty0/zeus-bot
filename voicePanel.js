@@ -91,7 +91,7 @@ module.exports = {
                         '# <:classadam:1551605484178378822> Bot Yönetimi Nedir?\n\n'+
                         'Standart Discord bot tokenlerini ses kanallarına **7/24 kesintisiz** bağlar. Aktif bot listeni görebilir, durum varlıklarını değiştirebilir ve bağlantıları kesebilirsin.\n\n' +
                         '───────────────────────────────────────────────────────────\n\n' +
-                        '# <:olympyx_ay:1551605489056354337> Seçenekler?\n\n'
+                        '# <:olympyx_ay:1551605489056354337> Seçenekler?\n\n'+
                         '<a:snowflake:1551605446203408384>` **Bot Sese Kur** — Tekli veya toplu bot tokenlerini ses kanalına sokar\n' +
                         '<a:snowflake:1551605446203408384>` **Bağlantıyı Kes** — Ses bağlantılarını güvenle sonlandırır'+
                         '<a:coding:1551605537446297803> Tokenlerin **şifrelenerek** saklanır.'
